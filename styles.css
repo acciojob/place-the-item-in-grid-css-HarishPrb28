@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr)200px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.container{
+	padding:20px;
+	background-color:lightcoral;
+}
